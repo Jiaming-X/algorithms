@@ -1,0 +1,11 @@
+package class99;
+
+import java.util.*;
+
+public class reverseVow {
+    HashSet<T> mySet = new HashSet<T>(Arrays.asList(new int[]{}));
+    public String reverse(String input) {
+        // Write your solution here.
+        return input;
+    }
+}

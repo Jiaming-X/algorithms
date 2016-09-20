@@ -1,0 +1,9 @@
+package class99;
+
+public class reverseVow {
+    Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
+    public String reverse(String input) {
+        // Write your solution here.
+        return input;
+    }
+}

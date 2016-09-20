@@ -1,0 +1,8 @@
+package class25;
+
+public class LongestCommonSubstring {
+    public String longestCommon(String s, String t) {
+        // Write your solution here.
+        return "";
+    }
+}

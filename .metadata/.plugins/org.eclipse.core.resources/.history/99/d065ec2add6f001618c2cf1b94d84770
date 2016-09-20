@@ -1,0 +1,8 @@
+package class25;
+
+public class longestCommonSubseq {
+    public int longest(String s, String t) {
+        // Write your solution here.
+        return 0;
+    }
+}

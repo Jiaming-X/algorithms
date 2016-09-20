@@ -1,0 +1,16 @@
+package class99;
+
+public class reverseWordsInString {
+    public String reverseWords(String input) {
+        // Write your solution here.
+        
+        
+        return input;
+    }
+    
+    public void swap(char[] array, int left, int right) {
+        char tmp = array[left];
+        array[left] = array[right];
+        array[right] = tmp;
+    }
+}

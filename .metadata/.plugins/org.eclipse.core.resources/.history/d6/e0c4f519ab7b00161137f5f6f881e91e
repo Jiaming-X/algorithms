@@ -1,0 +1,21 @@
+package class18;
+
+import java.util.Comparator;
+import java.util.HashMap;
+
+public class SortInSpecifiedOrder {
+    HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+    
+    public int[] sortSpecial(int[] A1, int[] A2) {
+        // Write your solution here.
+        return A1;
+    }
+    
+    class MyComparator implements Comparator<Integer> {
+        
+        @Override
+        public int compare (Integer one, Integer two) {
+            return map.get(one) - map.get(two);
+        }
+    }
+}

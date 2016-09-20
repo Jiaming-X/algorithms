@@ -1,0 +1,5 @@
+package class99;
+
+public class reverseVow {
+    Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
+}

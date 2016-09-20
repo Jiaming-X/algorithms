@@ -1,0 +1,13 @@
+package class99;
+
+import java.util.*;
+
+public class reverseVow {
+    public String reverse(String input) {
+        // Write your solution here.
+        HashSet<Character> mySet = new HashSet<Character>((new char[]{}));
+        
+        
+        return input;
+    }
+}
