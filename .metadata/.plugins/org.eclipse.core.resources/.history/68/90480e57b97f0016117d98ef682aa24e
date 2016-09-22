@@ -1,0 +1,14 @@
+package class99;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class twoSumCloset {
+    public List<Integer> closest(int[] array, int target) {
+        // write your solution here
+        List<Integer> result = new ArrayList<Integer>();
+        
+        
+        return result;
+    }
+}

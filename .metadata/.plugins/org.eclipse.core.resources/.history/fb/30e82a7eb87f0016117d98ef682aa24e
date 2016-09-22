@@ -1,0 +1,16 @@
+package class99;
+
+import java.util.Arrays;
+
+public class solution {
+    public static void main(String[] args) {
+//        reverseWordsInString soln = new reverseWordsInString();
+//        System.out.println("|" + soln.reverseWords("    an   apple    ") + "|");
+        
+        arrayHopperIII soln = new arrayHopperIII();
+        int[] input = new int[]{1,2,0};
+        System.out.println(Arrays.toString(input));
+        System.out.println(soln.minJump(input));
+    }
+
+}

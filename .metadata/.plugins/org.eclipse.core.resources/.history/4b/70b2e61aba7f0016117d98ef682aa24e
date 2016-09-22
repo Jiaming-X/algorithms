@@ -1,0 +1,37 @@
+package class99;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class twoSumCloset {
+    public List<Integer> closest(int[] array, int target) {
+        // write your solution here
+        List<Integer> result = new ArrayList<Integer>();
+        Arrays.sort(array);
+        int left = 0, right = array.length - 1;
+        result.add(left);
+        result.add(right);
+        
+        while (left < right) {
+            if (array[left] + array[right] == target) {
+                result.set(0, left);
+                result.set(1, right);
+                return result;
+            } else if (array[left] + array[right] > target) {
+                update(array, result, left, right);
+                right--;
+            } else {
+                left--;
+            }
+        }
+        
+        return result;
+    }
+    
+    public void update(int[] array, List<Integer> list, int left, int right) {
+        
+    }
+}
