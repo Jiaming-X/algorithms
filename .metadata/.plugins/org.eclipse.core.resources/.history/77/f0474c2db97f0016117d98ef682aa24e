@@ -1,9 +1,0 @@
-package class99;
-
-public class twoSumCloset {
-    public List<Integer> closest(int[] array, int target) {
-        // write your solution here
-        
-        return null;
-    }
-}

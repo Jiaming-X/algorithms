@@ -21,9 +21,7 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="class7_hashTableAndString.topKfreqMap"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="class10_recursionII.spiral1"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="class10_recursionII.spiralGenerator"/>
 <fullyQualifiedTypeName name="class10_recursionII.abreMatching"/>
 <fullyQualifiedTypeName name="class12_DPI.maxProd"/>
@@ -45,14 +43,21 @@
 <fullyQualifiedTypeName name="class99.occurrence"/>
 <fullyQualifiedTypeName name="class99.isomorphision"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="class18.SortInSpecifiedOrder.MyComparator"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="class18.SortInSpecifiedOrder"/>
 <fullyQualifiedTypeName name="class99.reverseVow"/>
 <fullyQualifiedTypeName name="class99.reverseWordsInString"/>
 <fullyQualifiedTypeName name="class21.mergeStones"/>
 <fullyQualifiedTypeName name="class21.rainbowIISort"/>
+<fullyQualifiedTypeName name="class99.arrayHopperIII"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="class99.twoSumCloset"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="class99.decomparessString"/>
+<fullyQualifiedTypeName name="class99.grid"/>
+<fullyQualifiedTypeName name="leetcode.compareStrings"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,87 @@
+2016-09-21 23:19:18,961 ERROR [Worker-415] - System.err - java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:38)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:663)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:200)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.index.Index.query(Index.java:140)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.matching.TypeDeclarationPattern.queryIn(TypeDeclarationPattern.java:310)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.core.search.SearchPattern.findIndexMatches(SearchPattern.java:2306)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.matching.MatchLocator.findIndexMatches(MatchLocator.java:275)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.search(PatternSearchJob.java:109)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:65)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:277)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1136)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.core.search.SearchEngine.searchAllTypeNames(SearchEngine.java:746)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlaysWithSearchEngine(InterfaceIndicatorLabelDecorator.java:185)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlays(InterfaceIndicatorLabelDecorator.java:148)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.decorate(InterfaceIndicatorLabelDecorator.java:131)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2016-09-21 23:19:18,964 ERROR [Worker-415] - System.err - -------------------- DEBUG --------------------
+2016-09-21 23:19:18,965 ERROR [Worker-415] - System.err - file = file:/Users/jiamingxie/GitHub/algorithms/.metadata/.plugins/org.eclipse.jdt.core/226989941.index
+2016-09-21 23:19:18,965 ERROR [Worker-415] - System.err - offset = 16979
+2016-09-21 23:19:18,965 ERROR [Worker-415] - System.err - size = 2018735458
+2016-09-21 23:19:18,965 ERROR [Worker-415] - System.err - --------------------   END   --------------------
+2016-09-21 23:19:19,968 ERROR [Worker-418] - System.err - java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:38)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:663)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:200)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.index.Index.query(Index.java:140)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.matching.TypeDeclarationPattern.queryIn(TypeDeclarationPattern.java:310)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.core.search.SearchPattern.findIndexMatches(SearchPattern.java:2306)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.matching.MatchLocator.findIndexMatches(MatchLocator.java:275)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.search(PatternSearchJob.java:109)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:65)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:277)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1136)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.core.search.SearchEngine.searchAllTypeNames(SearchEngine.java:746)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlaysWithSearchEngine(InterfaceIndicatorLabelDecorator.java:185)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlays(InterfaceIndicatorLabelDecorator.java:148)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.decorate(InterfaceIndicatorLabelDecorator.java:131)
+2016-09-21 23:19:19,969 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - -------------------- DEBUG --------------------
+2016-09-21 23:19:19,970 ERROR [Worker-418] - System.err - file = file:/Users/jiamingxie/GitHub/algorithms/.metadata/.plugins/org.eclipse.jdt.core/226989941.index
+2016-09-21 23:19:19,971 ERROR [Worker-418] - System.err - offset = 16979
+2016-09-21 23:19:19,972 ERROR [Worker-418] - System.err - size = 2018735458
+2016-09-21 23:19:19,972 ERROR [Worker-418] - System.err - --------------------   END   --------------------
+2016-09-21 23:23:48,563 ERROR [Worker-420] - System.err - java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:38)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:663)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:200)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.index.Index.query(Index.java:140)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.matching.TypeDeclarationPattern.queryIn(TypeDeclarationPattern.java:310)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.core.search.SearchPattern.findIndexMatches(SearchPattern.java:2306)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.matching.MatchLocator.findIndexMatches(MatchLocator.java:275)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.search(PatternSearchJob.java:109)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:65)
+2016-09-21 23:23:48,564 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:277)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1136)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.jdt.core.search.SearchEngine.searchAllTypeNames(SearchEngine.java:746)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlaysWithSearchEngine(InterfaceIndicatorLabelDecorator.java:185)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.addOverlays(InterfaceIndicatorLabelDecorator.java:148)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.jdt.internal.ui.InterfaceIndicatorLabelDecorator.decorate(InterfaceIndicatorLabelDecorator.java:131)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - -------------------- DEBUG --------------------
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - file = file:/Users/jiamingxie/GitHub/algorithms/.metadata/.plugins/org.eclipse.jdt.core/226989941.index
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - offset = 16979
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - size = 2018735458
+2016-09-21 23:23:48,565 ERROR [Worker-420] - System.err - --------------------   END   --------------------
