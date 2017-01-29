@@ -1,8 +1,0 @@
-package class99;
-
-public class reverseWordsInString {
-    public String reverseWords(String input) {
-        // Write your solution here.
-        return input;
-    }
-}
